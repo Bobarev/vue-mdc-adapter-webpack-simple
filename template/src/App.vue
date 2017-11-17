@@ -69,11 +69,10 @@ export default {
 </script>
 
 <style lang="scss">
-$mdc-theme-primary: #9c27b0;
-$mdc-theme-accent: #76ff03;
+$mdc-theme-primary: #009688;
+$mdc-theme-accent: #4CAF50;
 $mdc-theme-background: #fff;
-// File to import not found or unreadable: vue-mdc-adapter/components/styles.
-// @import "vue-mdc-adapter/components/styles";
+@import "vue-mdc-adapter/components/styles";
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
